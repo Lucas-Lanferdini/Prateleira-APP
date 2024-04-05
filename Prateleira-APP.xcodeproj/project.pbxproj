@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F258FE32B0B8DF300917BE7 /* Prateleira_APPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F258FE22B0B8DF300917BE7 /* Prateleira_APPApp.swift */; };
+		6F258FE52B0B8DF300917BE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F258FE42B0B8DF300917BE7 /* ContentView.swift */; };
+		6F258FE72B0B8DF500917BE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F258FE62B0B8DF500917BE7 /* Assets.xcassets */; };
+		6F258FEA2B0B8DF500917BE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F258FE92B0B8DF500917BE7 /* Preview Assets.xcassets */; };
+		6F258FF42B0B97C500917BE7 /* HistoricoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F258FF32B0B97C500917BE7 /* HistoricoView.swift */; };
+		6F258FF72B0B9AFB00917BE7 /* HistComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F258FF62B0B9AFB00917BE7 /* HistComponent.swift */; };
+		6F25903A2B0CD5AE00917BE7 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2590392B0CD5AE00917BE7 /* InfoView.swift */; };
+		6F25903C2B0CE08B00917BE7 /* InformativosComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F25903B2B0CE08B00917BE7 /* InformativosComponent.swift */; };
+		6F4E43F32B0F863700B186CF /* TelaExplicacaoUm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4E43F02B0F863700B186CF /* TelaExplicacaoUm.swift */; };
+		6F4E43F42B0F863700B186CF /* TelaUmPrateleira.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4E43F12B0F863700B186CF /* TelaUmPrateleira.swift */; };
+		6F4E43F52B0F863700B186CF /* TelaExplicacaoDois.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4E43F22B0F863700B186CF /* TelaExplicacaoDois.swift */; };
+		6F4E43F82B10D44E00B186CF /* SheetReceitaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4E43F72B10D44E00B186CF /* SheetReceitaView.swift */; };
+		6F4E43FB2B10D50900B186CF /* OpenAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6F4E43FA2B10D50900B186CF /* OpenAIKit */; };
+		6F4E43FD2B10D56D00B186CF /* APIResquest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4E43FC2B10D56D00B186CF /* APIResquest.swift */; };
+		6F4E43FF2B10EBEC00B186CF /* TelaExplicacaoHist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4E43FE2B10EBEC00B186CF /* TelaExplicacaoHist.swift */; };
+		E864B6212B14D2C1006ECE68 /* DespensaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E864B6202B14D2C1006ECE68 /* DespensaAPI.swift */; };
+		E864B6242B18C5FF006ECE68 /* Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E864B6222B18C5FF006ECE68 /* Data.xcdatamodeld */; };
+		E87BB2132B0CD735009F892D /* DataControllerHist.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87BB2122B0CD735009F892D /* DataControllerHist.swift */; };
+		E87BB2152B0CDC9B009F892D /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87BB2142B0CDC9B009F892D /* AddFoodView.swift */; };
+		E87BB2172B0CED73009F892D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87BB2162B0CED73009F892D /* DetailView.swift */; };
+		EC14715A2B0E3596001C4A28 /* MinhaPrateleiraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1471592B0E3596001C4A28 /* MinhaPrateleiraView.swift */; };
+		EC1471642B0E374A001C4A28 /* GenerateRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1471632B0E374A001C4A28 /* GenerateRecipeView.swift */; };
+		EC1471662B0E3769001C4A28 /* RestrictionsAndTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1471652B0E3769001C4A28 /* RestrictionsAndTimeView.swift */; };
+		EC1471682B0E3789001C4A28 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1471672B0E3789001C4A28 /* HeaderView.swift */; };
+		EC14716A2B0E37EF001C4A28 /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1471692B0E37EF001C4A28 /* ToDoList.swift */; };
+		EC14716C2B0E3808001C4A28 /* ToDoListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC14716B2B0E3808001C4A28 /* ToDoListModel.swift */; };
+		EC1471712B0E38FE001C4A28 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1471702B0E38FE001C4A28 /* ToDoListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F258FDF2B0B8DF300917BE7 /* Prateleira-APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prateleira-APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F258FE22B0B8DF300917BE7 /* Prateleira_APPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prateleira_APPApp.swift; sourceTree = "<group>"; };
+		6F258FE42B0B8DF300917BE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F258FE62B0B8DF500917BE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F258FE92B0B8DF500917BE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6F258FF32B0B97C500917BE7 /* HistoricoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricoView.swift; sourceTree = "<group>"; };
+		6F258FF62B0B9AFB00917BE7 /* HistComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistComponent.swift; sourceTree = "<group>"; };
+		6F2590392B0CD5AE00917BE7 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		6F25903B2B0CE08B00917BE7 /* InformativosComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformativosComponent.swift; sourceTree = "<group>"; };
+		6F4E43F02B0F863700B186CF /* TelaExplicacaoUm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaExplicacaoUm.swift; sourceTree = "<group>"; };
+		6F4E43F12B0F863700B186CF /* TelaUmPrateleira.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaUmPrateleira.swift; sourceTree = "<group>"; };
+		6F4E43F22B0F863700B186CF /* TelaExplicacaoDois.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaExplicacaoDois.swift; sourceTree = "<group>"; };
+		6F4E43F72B10D44E00B186CF /* SheetReceitaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetReceitaView.swift; sourceTree = "<group>"; };
+		6F4E43FC2B10D56D00B186CF /* APIResquest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResquest.swift; sourceTree = "<group>"; };
+		6F4E43FE2B10EBEC00B186CF /* TelaExplicacaoHist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaExplicacaoHist.swift; sourceTree = "<group>"; };
+		E864B6202B14D2C1006ECE68 /* DespensaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DespensaAPI.swift; sourceTree = "<group>"; };
+		E864B6232B18C5FF006ECE68 /* Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
+		E87BB2122B0CD735009F892D /* DataControllerHist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataControllerHist.swift; sourceTree = "<group>"; };
+		E87BB2142B0CDC9B009F892D /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
+		E87BB2162B0CED73009F892D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		EC1471592B0E3596001C4A28 /* MinhaPrateleiraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinhaPrateleiraView.swift; sourceTree = "<group>"; };
+		EC1471632B0E374A001C4A28 /* GenerateRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateRecipeView.swift; sourceTree = "<group>"; };
+		EC1471652B0E3769001C4A28 /* RestrictionsAndTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrictionsAndTimeView.swift; sourceTree = "<group>"; };
+		EC1471672B0E3789001C4A28 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		EC1471692B0E37EF001C4A28 /* ToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ToDoList.swift; path = "Prateleira-APP/View/MinhaPrateleira/ToDoList.swift"; sourceTree = SOURCE_ROOT; };
+		EC14716B2B0E3808001C4A28 /* ToDoListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListModel.swift; sourceTree = "<group>"; };
+		EC1471702B0E38FE001C4A28 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F258FDC2B0B8DF300917BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4E43FB2B10D50900B186CF /* OpenAIKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F258FD62B0B8DF300917BE7 = {
+			isa = PBXGroup;
+			children = (
+				6F258FE12B0B8DF300917BE7 /* Prateleira-APP */,
+				6F258FE02B0B8DF300917BE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F258FE02B0B8DF300917BE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F258FDF2B0B8DF300917BE7 /* Prateleira-APP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F258FE12B0B8DF300917BE7 /* Prateleira-APP */ = {
+			isa = PBXGroup;
+			children = (
+				6F258FF22B0B96AA00917BE7 /* Control */,
+				6F258FF12B0B96A200917BE7 /* View */,
+				6F258FF02B0B969600917BE7 /* Model */,
+				6F258FE22B0B8DF300917BE7 /* Prateleira_APPApp.swift */,
+				6F258FE42B0B8DF300917BE7 /* ContentView.swift */,
+				6F258FE62B0B8DF500917BE7 /* Assets.xcassets */,
+				6F258FE82B0B8DF500917BE7 /* Preview Content */,
+			);
+			path = "Prateleira-APP";
+			sourceTree = "<group>";
+		};
+		6F258FE82B0B8DF500917BE7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6F258FE92B0B8DF500917BE7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6F258FF02B0B969600917BE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC14715B2B0E35EE001C4A28 /* MinhaPrateleira */,
+				E87BB20D2B0CD5F9009F892D /* Historico */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F258FF12B0B96A200917BE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC1471582B0E3566001C4A28 /* MinhaPrateleira */,
+				6F4E43F62B0F865F00B186CF /* Explição */,
+				6F2590382B0CD58100917BE7 /* Informação */,
+				6F258FF52B0B980800917BE7 /* Histórico */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6F258FF22B0B96AA00917BE7 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				EC1471692B0E37EF001C4A28 /* ToDoList.swift */,
+				E87BB2112B0CD70B009F892D /* Historico */,
+				6F4E43FC2B10D56D00B186CF /* APIResquest.swift */,
+				E864B6202B14D2C1006ECE68 /* DespensaAPI.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		6F258FF52B0B980800917BE7 /* Histórico */ = {
+			isa = PBXGroup;
+			children = (
+				6F258FF32B0B97C500917BE7 /* HistoricoView.swift */,
+				6F258FF62B0B9AFB00917BE7 /* HistComponent.swift */,
+				E87BB2142B0CDC9B009F892D /* AddFoodView.swift */,
+				E87BB2162B0CED73009F892D /* DetailView.swift */,
+			);
+			name = "Histórico";
+			path = "Histórico";
+			sourceTree = "<group>";
+		};
+		6F2590382B0CD58100917BE7 /* Informação */ = {
+			isa = PBXGroup;
+			children = (
+				6F2590392B0CD5AE00917BE7 /* InfoView.swift */,
+				6F25903B2B0CE08B00917BE7 /* InformativosComponent.swift */,
+			);
+			name = "Informação";
+			path = "Informação";
+			sourceTree = "<group>";
+		};
+		6F4E43F62B0F865F00B186CF /* Explição */ = {
+			isa = PBXGroup;
+			children = (
+				6F4E43FE2B10EBEC00B186CF /* TelaExplicacaoHist.swift */,
+				6F4E43F22B0F863700B186CF /* TelaExplicacaoDois.swift */,
+				6F4E43F02B0F863700B186CF /* TelaExplicacaoUm.swift */,
+				6F4E43F12B0F863700B186CF /* TelaUmPrateleira.swift */,
+			);
+			name = "Explição";
+			path = "Explição";
+			sourceTree = "<group>";
+		};
+		E87BB20D2B0CD5F9009F892D /* Historico */ = {
+			isa = PBXGroup;
+			children = (
+				E864B6222B18C5FF006ECE68 /* Data.xcdatamodeld */,
+			);
+			path = Historico;
+			sourceTree = "<group>";
+		};
+		E87BB2112B0CD70B009F892D /* Historico */ = {
+			isa = PBXGroup;
+			children = (
+				E87BB2122B0CD735009F892D /* DataControllerHist.swift */,
+			);
+			path = Historico;
+			sourceTree = "<group>";
+		};
+		EC1471582B0E3566001C4A28 /* MinhaPrateleira */ = {
+			isa = PBXGroup;
+			children = (
+				EC1471592B0E3596001C4A28 /* MinhaPrateleiraView.swift */,
+				EC1471632B0E374A001C4A28 /* GenerateRecipeView.swift */,
+				EC1471652B0E3769001C4A28 /* RestrictionsAndTimeView.swift */,
+				EC1471672B0E3789001C4A28 /* HeaderView.swift */,
+				EC1471702B0E38FE001C4A28 /* ToDoListView.swift */,
+				6F4E43F72B10D44E00B186CF /* SheetReceitaView.swift */,
+			);
+			path = MinhaPrateleira;
+			sourceTree = "<group>";
+		};
+		EC14715B2B0E35EE001C4A28 /* MinhaPrateleira */ = {
+			isa = PBXGroup;
+			children = (
+				EC14716B2B0E3808001C4A28 /* ToDoListModel.swift */,
+			);
+			path = MinhaPrateleira;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F258FDE2B0B8DF300917BE7 /* Prateleira-APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F258FED2B0B8DF500917BE7 /* Build configuration list for PBXNativeTarget "Prateleira-APP" */;
+			buildPhases = (
+				6F258FDB2B0B8DF300917BE7 /* Sources */,
+				6F258FDC2B0B8DF300917BE7 /* Frameworks */,
+				6F258FDD2B0B8DF300917BE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prateleira-APP";
+			packageProductDependencies = (
+				6F4E43FA2B10D50900B186CF /* OpenAIKit */,
+			);
+			productName = "Prateleira-APP";
+			productReference = 6F258FDF2B0B8DF300917BE7 /* Prateleira-APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F258FD72B0B8DF300917BE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6F258FDE2B0B8DF300917BE7 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 6F258FDA2B0B8DF300917BE7 /* Build configuration list for PBXProject "Prateleira-APP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F258FD62B0B8DF300917BE7;
+			packageReferences = (
+				6F4E43F92B10D50900B186CF /* XCRemoteSwiftPackageReference "OpenAI" */,
+			);
+			productRefGroup = 6F258FE02B0B8DF300917BE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F258FDE2B0B8DF300917BE7 /* Prateleira-APP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F258FDD2B0B8DF300917BE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F258FEA2B0B8DF500917BE7 /* Preview Assets.xcassets in Resources */,
+				6F258FE72B0B8DF500917BE7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F258FDB2B0B8DF300917BE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F258FE52B0B8DF300917BE7 /* ContentView.swift in Sources */,
+				6F4E43F42B0F863700B186CF /* TelaUmPrateleira.swift in Sources */,
+				E864B6242B18C5FF006ECE68 /* Data.xcdatamodeld in Sources */,
+				6F4E43F52B0F863700B186CF /* TelaExplicacaoDois.swift in Sources */,
+				6F4E43F32B0F863700B186CF /* TelaExplicacaoUm.swift in Sources */,
+				E87BB2172B0CED73009F892D /* DetailView.swift in Sources */,
+				E87BB2132B0CD735009F892D /* DataControllerHist.swift in Sources */,
+				6F258FF72B0B9AFB00917BE7 /* HistComponent.swift in Sources */,
+				EC14715A2B0E3596001C4A28 /* MinhaPrateleiraView.swift in Sources */,
+				EC1471682B0E3789001C4A28 /* HeaderView.swift in Sources */,
+				6F4E43FF2B10EBEC00B186CF /* TelaExplicacaoHist.swift in Sources */,
+				EC1471662B0E3769001C4A28 /* RestrictionsAndTimeView.swift in Sources */,
+				EC14716A2B0E37EF001C4A28 /* ToDoList.swift in Sources */,
+				6F4E43FD2B10D56D00B186CF /* APIResquest.swift in Sources */,
+				6F4E43F82B10D44E00B186CF /* SheetReceitaView.swift in Sources */,
+				EC1471712B0E38FE001C4A28 /* ToDoListView.swift in Sources */,
+				EC14716C2B0E3808001C4A28 /* ToDoListModel.swift in Sources */,
+				EC1471642B0E374A001C4A28 /* GenerateRecipeView.swift in Sources */,
+				6F25903C2B0CE08B00917BE7 /* InformativosComponent.swift in Sources */,
+				E864B6212B14D2C1006ECE68 /* DespensaAPI.swift in Sources */,
+				6F258FF42B0B97C500917BE7 /* HistoricoView.swift in Sources */,
+				6F25903A2B0CD5AE00917BE7 /* InfoView.swift in Sources */,
+				6F258FE32B0B8DF300917BE7 /* Prateleira_APPApp.swift in Sources */,
+				E87BB2152B0CDC9B009F892D /* AddFoodView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6F258FEB2B0B8DF500917BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F258FEC2B0B8DF500917BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F258FEE2B0B8DF500917BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Prateleira-APP/Preview Content\"";
+				DEVELOPMENT_TEAM = 5L2778QQVJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apps.Prateleira-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F258FEF2B0B8DF500917BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Prateleira-APP/Preview Content\"";
+				DEVELOPMENT_TEAM = 5L2778QQVJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apps.Prateleira-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F258FDA2B0B8DF300917BE7 /* Build configuration list for PBXProject "Prateleira-APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F258FEB2B0B8DF500917BE7 /* Debug */,
+				6F258FEC2B0B8DF500917BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F258FED2B0B8DF500917BE7 /* Build configuration list for PBXNativeTarget "Prateleira-APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F258FEE2B0B8DF500917BE7 /* Debug */,
+				6F258FEF2B0B8DF500917BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6F4E43F92B10D50900B186CF /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/FuturraGroup/OpenAI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6F4E43FA2B10D50900B186CF /* OpenAIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F4E43F92B10D50900B186CF /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		E864B6222B18C5FF006ECE68 /* Data.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E864B6232B18C5FF006ECE68 /* Data.xcdatamodel */,
+			);
+			currentVersion = E864B6232B18C5FF006ECE68 /* Data.xcdatamodel */;
+			path = Data.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6F258FD72B0B8DF300917BE7 /* Project object */;
+}
